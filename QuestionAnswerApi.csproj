@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Jint" Version="4.2.1" />
+    <PackageReference Include="MongoDB.Driver" Version="3.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Scripts\getQuestions.js" />
+    <Resource Include="Scripts\getQuestions.js" />
+    <None Remove="Scripts\addQuestion.js" />
+    <Resource Include="Scripts\addQuestion.js" />
+    <None Remove="Scripts\answerQuestion.js" />
+    <Resource Include="Scripts\answerQuestion.js" />
+    <None Remove="Scripts\remove.js" />
+    <Resource Include="Scripts\removeAnswer.js" />
+    <Resource Include="Scripts\removeQuestion.js" />
+    <None Remove="Scripts\answerCount.js" />
+    <Resource Include="Scripts\answerCount.js" />
+  </ItemGroup>
+
+</Project>
