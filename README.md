@@ -27,5 +27,6 @@ To get started with the project, follow the instructions below:
    git clone https://github.com/AlexanderFlanchik/QuestionAnswerApi.git
    cd QuestionAsnwerApi
 2. **Restore and run**
+   ```bash
     dotnet restore
     dotnet run
